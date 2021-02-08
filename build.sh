@@ -20,3 +20,5 @@ for f in *prerun.sh vimrc
 do
     cp $CDIR/$f $build_dir/
 done
+
+cp -r $CDIR/vim $build_dir/
